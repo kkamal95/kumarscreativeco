@@ -21,9 +21,43 @@
     input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
     button { padding: 10px 20px; background: #0077cc; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
     button:hover { background: #005fa3; }
-  </style>
+ <style>
+  .hero-header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fefefe;
+  }
+
+  .hero-logo {
+    max-width: 300px;
+    width: 90%;
+    height: auto;
+  }
+
+  nav {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  nav a:hover {
+    color: #f0a500;
+  }
+</style>
 </head>
+
 <body>
+  <header class="hero-header">
+    <img src="images/hero-logo.png" alt="Kumars Creative Co. Logo" class="hero-logo" />
+  </header>
   <header>
     <nav>
       <a href="#about">About</a>
